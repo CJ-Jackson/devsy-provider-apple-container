@@ -1,8 +1,8 @@
 name: apple-container
 version: v0.1.0
-description: Use Apple's `container` as a DevPod provider
+description: Use Apple's `container` as a devsy provider
 agent:
-  path: ${DEVPOD}   # use the local DevPod agent
+  path: ${DEVSY}   # use the local devsy agent
 options:
   IMAGE:
     description: OCI image to boot as the workspace host
