@@ -29,7 +29,7 @@ exec:
     fi
     container run --detach --name "${CONTAINER_NAME}" ${RUN_ARGS} "${IMAGE}" sh -lc "sleep infinity"
   command: |
-    # DevPod injects ${COMMAND}; run it inside the VM-backed container
+    # devsy injects ${COMMAND}; run it inside the VM-backed container
     container exec -i "${CONTAINER_NAME}" sh -lc "${COMMAND}"
   delete: |
     container stop "${CONTAINER_NAME}" >/dev/null 2>&1 || true
