@@ -1,4 +1,4 @@
-# CJ-Jackosn/devsy-provider-apple-container
+# CJ-Jackson/devsy-provider-apple-container
 
 [Apple containerization](https://apple.github.io/containerization/documentation/) provider for [DevPod](https://github.com/loft-sh/devpod)
 
